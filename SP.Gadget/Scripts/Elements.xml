@@ -1,10 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Elements xmlns="http://schemas.microsoft.com/sharepoint/">
   <Module Name="Scripts">
-    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\jquery-1.9.1.min.map" Url="Scripts/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
-    <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
-    <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\libs\jquery\jquery-1.9.1.min.map" Url="Scripts/libs/jquery/jquery-1.9.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\libs\jquery\jquery-1.9.1.min.js" Url="Scripts/libs/jquery/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\libs\jquery\jquery-1.9.1.js" Url="Scripts/libs/jquery/jquery-1.9.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\libs\jquery\jquery-1.9.1.intellisense.js" Url="Scripts/libs/jquery/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\libs\bootstrap\bootstrap.js" Url="Scripts/libs/bootstrap/bootstrap.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\libs\bootstrap\bootstrap.min.js" Url="Scripts/libs/bootstrap/bootstrap.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\libs\proto\proto.js" Url="Scripts/libs/proto/proto.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\libs\minivents\minivents.js" Url="Scripts/libs/minivents/minivents.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\libs\include\include.js" Url="Scripts/libs/include/include.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\gadget.js" Url="Scripts/gadget.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\gadget\user.js" Url="Scripts/gadget/user.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\gadget\default.js" Url="Scripts/gadget/default.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\gadget\_references.js" Url="Scripts/gadget/_references.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\modules\_references.js" Url="Scripts/modules/_references.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\modules\core.js" Url="Scripts/modules/core.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\modules\modules.md" Url="Scripts/modules/modules.md" ReplaceContent="TRUE" />
+    <File Path="Scripts\gadget\gadget.md" Url="Scripts/gadget/gadget.md" ReplaceContent="TRUE" />
+    <File Path="Scripts\modules\ajax.js" Url="Scripts/modules/ajax.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\modules\sp.js" Url="Scripts/modules/sp.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

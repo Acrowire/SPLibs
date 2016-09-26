@@ -2,6 +2,17 @@
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Content\" Type="ElementManifest" />
-    <ProjectItemFile Source="App.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\bootstrap\bootstrap.css" Target="Content\libs\bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\bootstrap\bootstrap.css.map" Target="Content\libs\bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\bootstrap\bootstrap.min.css" Target="Content\libs\bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\bootstrap\bootstrap.min.css.map" Target="Content\libs\bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\bootstrap\bootstrap-theme.css" Target="Content\libs\bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\bootstrap\bootstrap-theme.css.map" Target="Content\libs\bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\bootstrap\bootstrap-theme.min.css" Target="Content\libs\bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\bootstrap\bootstrap-theme.min.css.map" Target="Content\libs\bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="gadget.css" Target="Content\" Type="ElementFile" />
+    <ProjectItemFile Source="gadgets\default.css" Target="Content\gadgets\" Type="ElementFile" />
+    <ProjectItemFile Source="gadgets\user.css" Target="Content\gadgets\" Type="ElementFile" />
+    <ProjectItemFile Source="gadgets\gadget-css.md" Target="Content\gadgets\" Type="ElementFile" />
   </Files>
 </ProjectItem>

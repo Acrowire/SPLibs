@@ -1,9 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
-    <ProjectItemFile Source="Elements.xml" Target="Pages\" Type="ElementManifest" />
-    <ProjectItemFile Source="Default.aspx" Target="Pages\" Type="ElementFile" />
-    <ProjectItemFile Source="User.aspx" Target="Pages\" Type="ElementFile" />
-    <ProjectItemFile Source="pages.md" Target="Pages\" Type="ElementFile" />
+    <ProjectItemFile Source="Elements.xml" Target="WebParts\" Type="ElementManifest" />
+    <ProjectItemFile Source="Sample.txt" Target="WebParts\" Type="ElementFile" />
+    <ProjectItemFile Source="webparts.md" Target="WebParts\" Type="ElementFile" />
   </Files>
 </ProjectItem>

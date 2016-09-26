@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="WebParts">
+    <File Path="WebParts\Sample.txt" Url="WebParts/Sample.txt" ReplaceContent="TRUE" />
+    <File Path="WebParts\webparts.md" Url="WebParts/webparts.md" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

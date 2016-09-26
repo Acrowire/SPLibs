@@ -43,23 +43,69 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Content\gadget.css" />
+    <Content Include="Content\gadgets\default.css" />
+    <Content Include="Content\gadgets\user.css" />
+    <Content Include="Content\libs\bootstrap\bootstrap-theme.css" />
+    <Content Include="Content\libs\bootstrap\bootstrap-theme.min.css" />
+    <Content Include="Content\libs\bootstrap\bootstrap.css" />
+    <Content Include="Content\libs\bootstrap\bootstrap.min.css" />
+    <Content Include="Pages\User.aspx" />
+    <Content Include="Scripts\gadget\default.js" />
+    <Content Include="Scripts\gadget\user.js" />
+    <Content Include="Scripts\gadget\_references.js" />
+    <Content Include="Scripts\gadget.js" />
+    <Content Include="Scripts\libs\bootstrap\bootstrap.js" />
+    <Content Include="Scripts\libs\bootstrap\bootstrap.min.js" />
+    <Content Include="Scripts\libs\include\include.js" />
+    <Content Include="Scripts\libs\minivents\minivents.js" />
+    <Content Include="Scripts\libs\proto\proto.js" />
+    <Content Include="Scripts\modules\ajax.js" />
+    <Content Include="Scripts\modules\core.js" />
+    <Content Include="Scripts\modules\sp.js" />
+    <Content Include="Scripts\modules\_references.js" />
+    <Content Include="WebParts\DefaultGadget\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <Content Include="WebParts\Elements.xml" />
+    <Content Include="WebParts\Sample.txt" />
+    <Content Include="WebParts\UserGadget\Elements.xml">
+      <OpcRelationship>feature-elementmanifest</OpcRelationship>
+    </Content>
+    <None Include="Content\gadgets\gadget-css.md" />
+    <None Include="Content\libs\bootstrap\bootstrap-theme.css.map" />
+    <None Include="Content\libs\bootstrap\bootstrap-theme.min.css.map" />
+    <None Include="Content\libs\bootstrap\bootstrap.css.map" />
+    <None Include="Content\libs\bootstrap\bootstrap.min.css.map" />
     <None Include="packages.config" />
+    <None Include="Pages\pages.md" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{36357d76-65e8-49b4-ad75-c35fbb925039}</SharePointProjectItemId>
     </None>
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\gadget\gadget.md" />
+    <None Include="Scripts\modules\modules.md" />
+    <None Include="WebParts\DefaultGadget\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef214e61-ad5f-49aa-8f09-2ef89ee53b6d}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{580f32dc-4b3f-4274-ae5c-d6c8fe49f069}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\UserGadget\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{06dcb4fa-929a-4223-9c7e-1f5674fa5934}</SharePointProjectItemId>
+    </None>
+    <None Include="WebParts\webparts.md" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Scripts\libs\jquery\jquery-1.9.1.min.map" />
     <None Include="Scripts\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{561ca103-9fc6-4b6b-832f-a8641bedc291}</SharePointProjectItemId>
     </None>
     <Content Include="Scripts\Elements.xml" />
-    <Content Include="Scripts\App.js" />
-    <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
-    <Content Include="Scripts\jquery-1.9.1.js" />
-    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\libs\jquery\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\libs\jquery\jquery-1.9.1.js" />
+    <Content Include="Scripts\libs\jquery\jquery-1.9.1.min.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
@@ -67,7 +113,6 @@
       <SharePointProjectItemId>{dbb04b9e-160f-414b-b0b9-32743d950deb}</SharePointProjectItemId>
     </None>
     <Content Include="Content\Elements.xml" />
-    <Content Include="Content\App.css" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\AppIcon.png">
@@ -97,6 +142,7 @@
       <SubType>Designer</SubType>
     </AppManifestFile>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

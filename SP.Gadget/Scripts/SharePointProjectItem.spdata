@@ -2,10 +2,24 @@
 <ProjectItem Type="Microsoft.VisualStudio.SharePoint.Module" DefaultFile="Elements.xml" SupportedTrustLevels="All" SupportedDeploymentScopes="Web, Site" xmlns="http://schemas.microsoft.com/VisualStudio/2010/SharePointTools/SharePointProjectItemModel">
   <Files>
     <ProjectItemFile Source="Elements.xml" Target="Scripts\" Type="ElementManifest" />
-    <ProjectItemFile Source="App.js" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.9.1.min.map" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.9.1.min.js" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.9.1.js" Target="Scripts\" Type="ElementFile" />
-    <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\jquery\jquery-1.9.1.min.map" Target="Scripts\libs\jquery\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\jquery\jquery-1.9.1.min.js" Target="Scripts\libs\jquery\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\jquery\jquery-1.9.1.js" Target="Scripts\libs\jquery\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\jquery\jquery-1.9.1.intellisense.js" Target="Scripts\libs\jquery\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\bootstrap\bootstrap.js" Target="Scripts\libs\bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\bootstrap\bootstrap.min.js" Target="Scripts\libs\bootstrap\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\proto\proto.js" Target="Scripts\libs\proto\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\minivents\minivents.js" Target="Scripts\libs\minivents\" Type="ElementFile" />
+    <ProjectItemFile Source="libs\include\include.js" Target="Scripts\libs\include\" Type="ElementFile" />
+    <ProjectItemFile Source="gadget.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="gadget\user.js" Target="Scripts\gadget\" Type="ElementFile" />
+    <ProjectItemFile Source="gadget\default.js" Target="Scripts\gadget\" Type="ElementFile" />
+    <ProjectItemFile Source="gadget\_references.js" Target="Scripts\gadget\" Type="ElementFile" />
+    <ProjectItemFile Source="modules\_references.js" Target="Scripts\modules\" Type="ElementFile" />
+    <ProjectItemFile Source="modules\core.js" Target="Scripts\modules\" Type="ElementFile" />
+    <ProjectItemFile Source="modules\modules.md" Target="Scripts\modules\" Type="ElementFile" />
+    <ProjectItemFile Source="gadget\gadget.md" Target="Scripts\gadget\" Type="ElementFile" />
+    <ProjectItemFile Source="modules\ajax.js" Target="Scripts\modules\" Type="ElementFile" />
+    <ProjectItemFile Source="modules\sp.js" Target="Scripts\modules\" Type="ElementFile" />
   </Files>
 </ProjectItem>

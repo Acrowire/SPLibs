@@ -12,7 +12,7 @@
     <script type="text/javascript" src="../Scripts/jquery-1.9.1.min.js"></script>
     <SharePoint:ScriptLink name="sp.js" runat="server" OnDemand="true" LoadAfterUI="true" Localizable="false" />
     <meta name="WebPartPageExpansion" content="full" />
-    <link href="../Content/gadgets/default.css" rel="stylesheet" />
+    <link href="../Content/gadgets/user.css" rel="stylesheet" />
     <link href="../Content/gadget.css" rel="stylesheet" />
 
 </asp:Content>
@@ -31,7 +31,7 @@
     <script type="text/javascript" src="../Scripts/libs/include/include.js"></script>
 
     <!-- gadget markup (basic markup + which gadget do you want to laod in here) -->
-    <div class="gadget" data-gadget="gadget.default">
+    <div class="gadget" data-gadget="gadget.user ">
 
     </div>
 
