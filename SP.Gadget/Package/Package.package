@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="abbf2ec0-ff76-42be-a75d-adacd0d655ac" 
+        solutionId="abbf2ec0-ff76-42be-a75d-adacd0d655ac" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SP.Gadget"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="2358b053-a220-4577-b1cb-9b4bbe5208bc" />
+  </features>
+</package>
